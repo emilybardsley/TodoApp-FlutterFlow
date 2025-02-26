@@ -11,6 +11,9 @@ export 'completed_model.dart';
 class CompletedWidget extends StatefulWidget {
   const CompletedWidget({super.key});
 
+  static String routeName = 'completed';
+  static String routePath = '/completed';
+
   @override
   State<CompletedWidget> createState() => _CompletedWidgetState();
 }
